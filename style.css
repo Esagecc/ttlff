@@ -238,26 +238,26 @@ main {
 .footer {
   background-color: var(--beige);
   font-size: 1.2rem;
-  margin-top: -50px;
+  margin-top: -40px;
 }
 
 .ftr-text {
-  padding: 15px;
-  font-size: 12px;
-  margin: -21px 0;
+  padding: 25px;
+  font-size: 0.8rem;
 }
 
 .social {
   display: flex;
+  position: relative;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: end;
 }
 
 .social-icon { 
   width: auto;
-  max-width: 80px;
+  max-width: 60px;
   height: auto;
-  max-height: 80px;
+  max-height: 60px;
   padding: 10px;
 }
 
@@ -305,7 +305,7 @@ main {
 
   .spring {
     font-size: 8rem;
-    transform: translateY(100%);
+    transform: translateY(70%);
   }
 
   .ttlff {
@@ -400,8 +400,8 @@ main {
     }
     
   .ftr-text {
-    padding: 20px 0;
-    font-size: 12px;
+    padding: 50px 0;
+    font-size: 1rem;
     }
 
     .tix-sale {

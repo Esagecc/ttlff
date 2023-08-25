@@ -14,21 +14,14 @@
 }
 
 * {
-font-family: 'Poppins', sans-serif;
-margin: 0;
-padding:0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding:0;
 }
 
 .logo {
   height: 60px;
   padding-left: 20px;
-}
-
-.spring {
-  text-align: center;
-  transform: translateY(120%);
-  font-size: 2.5rem;
-  font-family: 'Playfair Display', serif;
 }
 
 .ttlff {
@@ -140,6 +133,7 @@ padding:0;
   font-weight: 500;
   cursor: pointer;
   z-index: 10;
+  transition: 0.8sec ease-in-out;
 }
       
 .navbar-list  a:hover {
@@ -236,17 +230,6 @@ main {
   filter: brightness(0.65);
 }
 
-.img-cnt {
-  width: 500px;
-  justify-content: flex-end;
-}
-
-.img-long {
-  width: 100%;
-  border-radius: 20px;
-  margin-bottom: 25px;
-}
-
 .contact {
   padding-top: 1.5rem;
 }
@@ -313,36 +296,16 @@ i:hover {
   background-color: var(--red);
 }
 
-@media (min-width:901px) and (max-width: 1290px) {
-
-  .img-hrz {
-    max-height: 250px;
-  }
-  
-  .img-vrt {
-    max-height: 350px;
-  }
-
-  .img-long {
-    max-width: 300px;
-    margin: 0;
-  }
-}
 
 @media (min-width:900px){
   .toggle {
     display: none;
   }
 
-  .spring {
-    font-size: 8rem;
-    transform: translateY(70%);
-  }
-
   .ttlff {
     display: flex;
     padding-top: 0;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
   }
       
@@ -412,16 +375,16 @@ i:hover {
     padding-right: 2.5rem;
   }
 
-  .sec-third h1, .sec-third p, .sec-fifth h1, .sec-fifth p {
+  .sec-third h1, .sec-third p, .sec-fifth h1, .sec-fifth p, .earlybird, .free {
     padding-left: 2.5rem;
   }
 
-  .img-hrz {
-    height: 350px;
+  .imgs {
+    width: 50%
   }
-    
-  .img-vrt {
-    height: 500px;
+
+  #background-video {
+    width: 65%;
   }
 
   .img-long {
@@ -441,6 +404,11 @@ i:hover {
 
   .free {
     height: 110px;
+  }
+
+  .last-sec {
+    display: flex;
+    justify-content: space-between;
   }
 }
 

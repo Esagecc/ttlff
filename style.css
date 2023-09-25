@@ -184,6 +184,10 @@ main {
   flex-direction: row;
   padding: 0 20px;
   text-align: justify;
+} 
+
+.article h1, .earlybird {
+  text-align: left;
 }
 
 .sec-sec h1, .sec-third h1, .sec-fourth h1, .sec-fifth h1, .sec-sixth h1 {
@@ -213,9 +217,16 @@ main {
   font-size: 1.8rem;
 }
 
-/* .img-hrz, .img-vrt {
-  width: 100%;
-} */
+.sage {
+  text-decoration: none;
+  color: rgb(5, 68, 5);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.sage:hover {
+  color: green;
+}
 
 .free {
   height: 80px;
@@ -241,9 +252,7 @@ main {
 }
 
 .footer {
-  /* background-color: var(--ltgray); */
   font-size: 1.2rem;
-  /* margin-top: -40px; */
 }
 
 .ftr-text {

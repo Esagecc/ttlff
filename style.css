@@ -284,6 +284,26 @@ i:hover {
   color: var(--red);
 }
 
+/* Countdown */
+.sec-countdown {
+  color: var(--red);
+  font-size: 1.45rem;
+}
+
+.countdown{
+  display: flex;
+  padding-top: 30px;
+}
+
+.countdown h4 {
+  padding-right: 8px;
+}
+
+#hours, #minutes, #seconds {
+  display: none;    
+}
+
+
 /* following code is for the button */
 #myBtn {
   display: none;
@@ -418,6 +438,10 @@ i:hover {
   .last-sec {
     display: flex;
     justify-content: space-between;
+  }
+
+  .sec-countdown { 
+    font-size: 2.5rem;
   }
 }
 

@@ -11,10 +11,21 @@ h2 {
     padding: 15px 0;
 }
 
-.category {
-    font-style: 2.5rem;
-    padding: 30px 0 10px;
+.artistic {
+    padding-bottom: 30px;
 }
+
+.category {
+    font-size: 2.3rem;
+    font-weight: 800;
+    line-height: 2.1rem;
+    padding-bottom: 30px;
+}
+
+.one-film h4 {
+ font-size: 1.75rem;
+ font-weight: 800;
+} 
   
 p {
     font-size: 1.25rem;
@@ -24,4 +35,41 @@ p {
     padding-bottom: 25px;
 }
 
+.one-film img {
+    border-radius: 10px;
+}
 
+@media (min-width:900px){
+ main {
+    width: 60%;
+    margin:0 auto;
+ }
+
+ h2 {
+    font-size: 3.5rem;
+    padding-top: 40px;
+ }
+
+.category {
+    font-size: 3rem;
+    padding-top: 30px;
+}
+
+ .one-film {
+    display: flex;
+ }
+
+ .one-film img {
+    width: 35%;
+    margin: 0 30px 30px 0;
+    border-radius: 10px;
+ }
+
+ .one-film h4 {
+    font-size: 2.5rem;
+ }
+
+ p {
+    font-size: 1.5rem;
+ }
+} 

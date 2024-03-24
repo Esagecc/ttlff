@@ -41,7 +41,7 @@ const second= document.getElementById('seconds');
 const minute=document.getElementById('minutes');
 const hour=document.getElementById('hours');
 const day=document.getElementById('days');
-const newyeardate= "12 apr 2024";
+const newyeardate= "11 may 2024";
 
 const countdown=()=>{
     const newdate= new Date(newyeardate);

@@ -27,8 +27,21 @@ h2 {
  font-weight: 800;
 } 
   
-p {
+p, li{
     font-size: 1.25rem;
+}
+
+li {
+    list-style: none;
+}
+
+.after {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.time {
+    font-weight: 600;
 }
 
 .film-article {

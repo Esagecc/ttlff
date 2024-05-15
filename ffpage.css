@@ -7,12 +7,15 @@ main {
   }
 
 h2 {
-    font-size: 2.25rem;
+    font-size: 2.75rem;
+    text-align: center;
+    text-transform:uppercase;
     padding: 15px 0;
+    line-height: 3rem;
 }
 
 .artistic {
-    padding-bottom: 30px;
+    padding: 20px 0;
     font-weight: 600;
     font-size: 2.5rem;
 }
@@ -61,38 +64,9 @@ li {
 
 }
 
-/* photo gallery */
-/* Style the gallery container and images */
-.gallery-container {
-    position: relative;
-    width: 80%; /* Adjust the width as needed */
-    margin: 40px auto;
-    text-align: center;
-  }
-  
-  .gallery-images {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .gallery-images img {
-    width: 33.33%; /* Adjust the width as needed */
-    margin: 10px;
-  }
-  
-  /* Style the full-screen button */
-  .full-screen-button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-  }
-
+.gallery-pic {
+    width: 100%;
+}
 
 @media (min-width:900px){
  main {

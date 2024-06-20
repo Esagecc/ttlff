@@ -71,12 +71,27 @@ li {
     font-weight: 700;
     font-size: 1.7rem;
     background-color:var(--yellow);
+}
 
+.gallery-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 0.8px black;
 }
 
 .gallery-pic {
     width: 100%;
 }
+
+.bottom-right {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: .5rem;
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+  }
 
 @media (min-width:900px){
  main {
@@ -112,5 +127,9 @@ li {
 
  .films p {
     font-size: 1.7rem;
+ }
+
+ .bottom-right {
+    font-size: 2rem;
  }
 } 
